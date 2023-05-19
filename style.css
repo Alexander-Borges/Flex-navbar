@@ -1,0 +1,45 @@
+
+body {
+    font-family: 'Roboto';
+}
+.nav {
+    background-color: grey;
+    color: white;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.button {
+    color: white;
+    padding:0.5em 2em;
+    margin:0 0.3em 0.3em 0;
+    background-color: rgb(13, 137, 175);
+    border: black;
+    border-style: solid;
+    box-shadow: 5px 5px black;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+
